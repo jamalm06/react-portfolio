@@ -7,7 +7,7 @@ function Portfolio() {
     {
       title: "BreakMyIntake",
       website: "https://evening-journey-80732.herokuapp.com",
-    //   image: "",
+      image: "./images/breakmyintake.png",
       description:
         "A website to check BMI and track Calorie intake",
       altText: "BreakMyIntake",
@@ -16,21 +16,21 @@ function Portfolio() {
     {
       title: "WhatRightNow",
       website: "https://meetsudarshan.github.io/WhatRightNow/",
-    //   image: "",
+      image: "./images/whatrightnow.png",
       description:
         "check weather in desired location and suggestions for good places to eat out",
       altText: "What Right Now",
       githubRepo: "https://github.com/meetsudarshan/WhatRightNow",
     },
-    // {
-    //   title: "",
-    //   website: "",
-    // //   image: "./images/",
-    //   description:
-    //     "",
-    //   altText: "",
-    //   githubRepo: "",
-    // },
+    {
+      title: "Password Generator",
+      website: "https://jamalm06.github.io/module03-javascript/",
+      image: "./images/passwordgenerator.png",
+      description:
+        "app to generator random password",
+      altText: "password generator",
+      githubRepo: "https://github.com/jamalm06/module03-javascript",
+    },
     // {
     //   title: "",
     //   website: "",
