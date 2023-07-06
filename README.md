@@ -45,5 +45,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 
+[link to portfolio](https://jamalm06.github.io/react-portfolio/)
 
 
+## Credits
+Worked with Sami and Sudar to complete assigned task
