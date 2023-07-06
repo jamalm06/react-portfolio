@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    
+	scroll-behavior: smooth;
+}
+
+.page-data {
+  min-height: calc(100vh - 150px);
+}
+header {
+  background-image: linear-gradient(to left, grey, black);
+  color: white;
+  padding: 50px 0 30px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-name {
+  display: flex;
+  flex-direction: row;
+}
+
+.links {
+  display: flex;
+}
+
+.section-links {
+  padding: 0 30px;
+  color: white;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+.section-links:hover {
+  text-decoration: underline;
+}
+
+.rendered-page {
+  padding: 0 30px;
+  color: white;
+  font-size: 23px;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+.about-me {
+  padding-top: 200px;
+  margin-left: 50px;
+  min-height: calc(100vh - 280px); /* Adjust the value (280px) based on the combined height of the header and footer */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-me-header {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 100px;
+}
+
+.photo {
+  width: 5%;
+  border-radius: 50%;
+  margin: 0 0 40px 120px;
+}
+
+.about-me-paragraph {
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 250px;
+}
+
+.form {
+  margin: 50px 0 0 50px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  margin-bottom: 25px;
+}
+
+.form input {
+  width: 15%;
+  margin-bottom: 25px;
+}
+
+.form textarea {
+  width: 15%;
+  height: 200px;
+}
+
+.form button {
+  margin-top: 25px;
+  width: 7%;
+  height: 30px;
+}
+
+.form p {
+  color: red;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #9DB2BF;
+  /* align-items: center; */
+  /* margin-top: auto; */
+  /* margin-bottom: 25px; */
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons {
+  padding: 0 100px;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-icons:hover {
+  text-decoration: underline;
+}
+
+.card {
+  flex-direction: row;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  margin-left: 10px;
+  width: 45vw;
+}
+
+.repo-link {
+  margin-left: 210px;
+}
+
+.project-img {
+  width: 50%;
+}
+
+.resume {
+  min-height: 94vh;
+}
+
+.resume-header {
+  margin: 50px 0 20px 50px;
+}
+
+.resume-items {
+  margin: 40px 0 0 100px;
+}
+
+.resume-download {
+  text-decoration: none;
+  color: black;
+  margin-left: 50px;
+}
+
+.resume-download:hover {
+  color: blue;
+}
+
+.centered-div {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
