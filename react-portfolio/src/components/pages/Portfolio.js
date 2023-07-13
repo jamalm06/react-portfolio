@@ -5,6 +5,16 @@ import { Container, Row } from "react-bootstrap";
 function Portfolio() {
   const projects = [
     {
+      title: "Offres D'Art",
+      website: "https://nameless-springs-87426-ab7084b2cd1d.herokuapp.com",
+      image: "./images/art-dealer.png",
+      description:
+        "Online art gallary",
+      altText: "art-dealer",
+      githubRepo: "https://github.com/Cashew1337/Art-Dealer",
+    },
+
+    {
       title: "BreakMyIntake",
       website: "https://evening-journey-80732.herokuapp.com",
       image: "./images/breakmyintake.png",
